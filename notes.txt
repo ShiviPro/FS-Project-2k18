@@ -1,0 +1,4 @@
+Title Section : #4ef037, #fff;
+Features section: #000, #fff;
+Comparison-section: #97de95 ,#fff;
+Copyright-section: #4ef037, #fff; 
