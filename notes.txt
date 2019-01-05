@@ -1,4 +1,160 @@
 Title Section : #4ef037, #fff;
-Features section: #000, #fff;
+Features section: #fff, #000;
 Comparison-section: #97de95 ,#fff;
-Copyright-section: #4ef037, #fff; 
+Recommendations-section: #fff, #000;
+Copyright-section: #4ef037, #fff;
+
+
+<!-- <img src="D:\training\image\mobile.jpg" style="float: right;padding: 400px 250px;"> -->
+</nav>
+</section>
+<section>
+<div class="clearfix">
+  <div class="box" style="background-color:white">
+    <i class="fa fa-check-circle" style="font-size:70px;color:green;border-radius: 100%;padding-left: 50%"></i>
+    <h1 style="color: green;padding-left: 50%">feature 1</h1>
+    <p style="color: green;padding-left: 50%">feature discribtion</p>
+  </div>
+  <div class="box" style="background-color:white">
+    <i class="fa fa-info-circle" style="font-size:70px;color:green;border-radius: 100%;padding-left: 50%"></i>
+    <h1 style="color: green;padding-left: 50%">feature 2</h1>
+    <p style="color: green;padding-left: 50%">feature discribtion</p>
+  </div>
+  <div class="box" style="background-color:white">
+    <i class="fa fa-question-circle" style="font-size:70px;color:green; padding-left: 50%"></i>
+    <h1 style="color: green; padding-left: 50%">feature 3</h1>
+    <p style="color: green; padding-left: 50%">feature discribtion</p>
+  </div>
+</div>
+</section>
+
+
+<section style="background-color: green; height: 700px"><br>
+<h1 style="background-color: green; color: white;text-align: center;">SOME TEXT</h1>
+<p style="background-color: green; color: white;text-align: center;">Some text</p><br><br><br><br><br>
+<div class="flex-container">
+  <div class="box" style="background-color:#bbb">
+    <p>Some text inside the box.</p>
+  </div>
+  <div class="box" style="background-color:#ccc">
+    <p>Some text inside the box.</p>
+  </div>
+  <div class="box" style="background-color:#ddd">
+    <p>Some text inside the box.</p>
+  </div>
+</div>
+<div style="background-color:green;margin-bottom: 40px;">
+  <button style="margin-left:50%;text-shadow: 2px;font-size: 50px;">button</button></div>
+</section><br>
+
+<section>
+<h1></h1>
+</section><br><br><br><br><br><br><br><br>
+<section>
+<h1 style="margin-left: 40%;font-size: 70px">SOME TEXT</h1>
+<ul style="font-size: 40px;color: green;">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul><br><br>
+<ul style="font-size: 40px;color: green;">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul><br><br>
+<ul style="font-size: 40px;color: green;">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+</section>
+<section style="height: 300px;background-color: green">
+<div class="COPYRIGHT">
+  <i class='fab fa-facebook' style='font-size:48px;color:white;margin-left: 20px'></i>
+  <i class='fab fa-linkedin-square' style='font-size:48px;color:white;margin-left: 20px'></i>
+  <i class='fab fa-whatsapp-square' style='font-size:48px;color:white;margin-left: 20px'></i>
+  <i class='fab fa-twitter-square' style='font-size:48px;color:white;margin-left: 20px'></i></div>
+
+<h1 style="margin-left: 41%;">COPYRIGHT</h1>
+
+</section>
+
+
+
+
+
+
+.sticky {
+  position: -webkit-sticky;
+  position: fixed;
+  top: 0;
+  padding: 5px;
+  background-color: #4ef037;
+  border: 4px solid #4CAF50;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #4ef037;
+}
+
+.flex-container .box {
+  background-color: #f1f1f1;
+  width: 25%;
+  margin: 10px 110px 50px 40px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  height: 500px;
+}
+
+button:link {
+  color: blue;
+  background-color: red;
+  text-decoration: none;
+}
+
+button:visited {
+  color: pink;
+  background-color: red;
+  text-decoration: none;
+}
+
+button:hover {
+  color: white;
+  background-color: red;
+  text-decoration: underline;
+}
+
+button:active {
+  color: black;
+  background-color: red;
+  text-decoration: underline;
+}
+
+.COPYRIGHT {
+  background-color: #4ef037;
+  width: 360px;
+  border-top: : 2px solid #4ef037;
+  padding: 25px;
+  margin: 25px;
+  margin-left: 37%;
+}
